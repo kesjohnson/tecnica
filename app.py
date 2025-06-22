@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/mi-api', methods=['POST'])
+@app.route('/tecnica', methods=['POST'])
 def mi_funcion():
     data = request.json
     nombre = data.get('nombre', 'persona misteriosa')
