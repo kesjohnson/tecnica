@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: mi-api-flamenca
+    name: tecnica
     env: python
     buildCommand: ""
     startCommand: gunicorn app:app
